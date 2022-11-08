@@ -1,0 +1,35 @@
+.heroes__hero--card{
+    background-color: $real__orange;
+    width: 130px;
+    height: 170px;
+    overflow: hidden;
+    margin: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    &:hover{
+        transform: translateY(-10px);
+        background-color: #d37800;
+        transition: ease-in-out 0.4s;
+    }
+    
+    
+}
+
+.hero__image{
+    height: 85%;
+    overflow: hidden;
+}
+
+.image__hero{
+    width: 100%;
+}
+
+.hero__name{
+    color: $real__white;
+    font-weight: bold;
+    font-style: italic;
+}

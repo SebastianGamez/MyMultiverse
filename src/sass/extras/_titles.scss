@@ -1,0 +1,18 @@
+.multiverse__title{
+    font-family: $titan;
+    font-size: 2.8rem;
+    animation-name: multiverse__title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes multiverse__title {
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.multiverse__subtitle{
+    padding: 0px;
+}
